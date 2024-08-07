@@ -1,0 +1,13 @@
+add_library(
+        my-lib
+        adapters.cpp
+        adapters.h
+        drop_adapter.h
+        utils.h
+        filter_adapter.h
+        adapter_concepts.h
+        reverse_adapter.h
+        transform_adapter.h
+        take_adapter.h
+        values_adapter.h
+)
